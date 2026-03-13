@@ -52,6 +52,17 @@ public class da {
         int mn=h/l;
         System.out.println("invide="+mn);
     }
+    static void mu(String msg,int ds,int ks) {
+
+
+        int rp = ds * ks;
+        System.out.println(msg+rp);
+    }
+     static void su(String delhi,int as, int sn){
+        int ad=as+sn;
+        System.out.println(delhi+ad);
+     }
+
         public static void main (String args[]){
 //            add();
 //            product();
@@ -63,8 +74,11 @@ public class da {
             pro(6,7);
             param(75,66);
             invide(22,2);
-
-
+            mu("good=",5,22 );
+            su("best=",4,8);
+            for(int sd=1;sd<=10;sd++) {
+                System.out.println(sd);
+            }
 
 
    
