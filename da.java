@@ -76,9 +76,11 @@ public class da {
             invide(22,2);
             mu("good=",5,22 );
             su("best=",4,8);
-            for(int sd=1;sd<=10;sd++) {
-                System.out.println(sd);
-            }
+            for(int sd=1;sd<=10;sd++)
+                for(int gs=1;gs<=10;gs++) {
+                    System.out.println(gs * gs);
+                }
+
 
 
    
